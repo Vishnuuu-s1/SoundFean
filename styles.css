@@ -11863,7 +11863,6 @@ body.sidebar-collapsed body.sidebar-collapsed .deezer-hires-warning {
         12px 0 40px rgb(0, 0, 0, 0.18),
         inset -1px 0 rgb(96, 165, 250, 0.035);
     backdrop-filter: blur(24px) saturate(135%);
-    backdrop-filter: blur(24px) saturate(135%);
 }
 
 :root:not([data-theme='white']) .sidebar-nav .nav-item a:hover {
@@ -11895,7 +11894,6 @@ body.sidebar-collapsed body.sidebar-collapsed .deezer-hires-warning {
         inset 0 1px rgb(255, 255, 255, 0.025),
         0 10px 32px rgb(0, 0, 0, 0.12);
     backdrop-filter: blur(20px) saturate(135%);
-    backdrop-filter: blur(20px) saturate(135%);
 }
 
 :root:not([data-theme='white']) .search-bar:focus-within {
@@ -11909,9 +11907,11 @@ body.sidebar-collapsed body.sidebar-collapsed .deezer-hires-warning {
     0% {
         transform: translate3d(-1.5%, -1%, 0) scale(1);
     }
+
     50% {
         transform: translate3d(1.5%, 1%, 0) scale(1.035);
     }
+
     100% {
         transform: translate3d(-0.5%, 1.5%, 0) scale(1.02);
     }
