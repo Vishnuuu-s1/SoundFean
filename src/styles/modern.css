@@ -271,8 +271,6 @@ textarea:focus-visible,
     text-transform: uppercase;
 }
 
-
-
 .main-content {
     padding: 0 clamp(22px, 3vw, 52px) calc(var(--player-bar-height-desktop) + 42px) !important;
     scroll-behavior: auto;
@@ -683,8 +681,6 @@ textarea:focus-visible,
 #total-duration,
 #fs-current-time,
 #fs-total-duration,
-
-
 .track-menu-btn,
 .track-action-btn,
 .card-like-btn,
@@ -799,8 +795,6 @@ textarea:focus-visible,
 
 .settings-group,
 .modal-content,
-
-
 .settings-group {
     padding: 8px;
 }

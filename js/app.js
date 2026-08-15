@@ -476,8 +476,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     // Initialize analytics
     initAnalytics();
 
- 
-
     new ThemeStore();
 
     try {

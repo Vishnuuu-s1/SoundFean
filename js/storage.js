@@ -888,7 +888,6 @@ export const crossfadeSettings = {
     },
 };
 
-
 export const qualityBadgeSettings = {
     STORAGE_KEY: 'show-quality-badges',
 

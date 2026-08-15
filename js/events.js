@@ -34,7 +34,6 @@ import { Player } from './player.js';
 let currentTrackIdForWaveform = null;
 let copiedTracks = [];
 
-
 const trackSelection = {
     selectedIds: new Set(),
     lastClickedId: null,
