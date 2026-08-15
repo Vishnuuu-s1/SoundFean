@@ -2,11 +2,9 @@ import fs from 'fs';
 import path from 'path';
 
 const html = fs.readFileSync('./index.html', 'utf-8');
-const matches = [...html.matchAll(/(?:src|href)="([^"]+)"/g)].map(m => m[1]);
+const matches = [...html.matchAll(/(?:src|href)="([^"]+)"/g)].map((m) => m[1]);
 
-const localPaths = [...new Set(matches)].filter(
-    (p) => p.startsWith('/') && !p.startsWith('//')
-);
+const localPaths = [...new Set(matches)].filter((p) => p.startsWith('/') && !p.startsWith('//'));
 
 console.log(`Found ${localPaths.length} local paths to check...`);
 
