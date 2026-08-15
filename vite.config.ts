@@ -102,7 +102,7 @@ export default defineConfig(({ mode }) => {
                     importScripts: [`sw-decrypter.js?v=${decrypterVersion}`],
                     skipWaiting: true,
                     clientsClaim: true,
-                  globPatterns: ['**/*.{js,css,html,json,svg,png,webp,woff2}'],
+                  globPatterns: ['index.html', 'manifest.json'],
                     cleanupOutdatedCaches: true,
                     maximumFileSizeToCacheInBytes: 3 * 1024 * 1024, // 3 MiB limit
                     // Define runtime caching strategies
